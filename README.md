@@ -65,7 +65,9 @@ Será definida a seguinte regra para esta transação:
   ]
 }
 ```
-Uma vez que o pagamento for concluído, os valores serão lançados nas contas dos clientes.
+Uma vez que o pagamento for concluído, os valores serão lançados nas contas dos clientes. 
+
+Lembrando que, o valor líquido não pode ser negativo, em cujo caso o sistema irá retornar um erro do tipo 400.
 
 # Rateio da taxa
 Para cada recebivel insidira uma taxa que será parametrizada no momento da criação da conta do estabelecimento, esta taxa esta composta por duas partes:
